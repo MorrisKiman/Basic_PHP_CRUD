@@ -1,0 +1,9 @@
+//paste these commands into your SQL console or in php myadmin
+
+create database PHP_crud;
+use PHP_crud;
+
+create table Data(
+ID int not null primary key auto_increment,
+name varchar(50) not null,
+location varchar(50) not null);
